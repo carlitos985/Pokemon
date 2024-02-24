@@ -1,0 +1,123 @@
+span{
+    font-family: 'Pokemon Solid', sans-serif;
+    text-shadow: 2px 2px 0 #0a0a0a, 
+                -2px -2px 0 #0a0a0a,
+                -2px 2px 0 #0a0a0a,
+                2px -2px 0 #0a0a0a;
+}
+
+.poke_card{
+    background-color: white;
+    border: 5px solid #DC1A1A;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    cursor: pointer;
+    gap: 5px;
+    position: relative;
+    
+}
+
+.poke_card:hover{
+    transform: scale(1.05);
+}
+
+.poke_card div{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    border-radius: 20px 20px 0 0;
+}
+
+.poke_card figure{
+    position: relative;
+    width: 150px;
+    z-index: 10;
+}
+
+.poke_types{
+    display: flex;
+    gap: 10px;
+}
+
+.poke_stats{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding: 15px;
+    width: 85%;
+    gap: 10px;
+}
+
+.poke_stats li{
+    display: flex;
+    flex-direction: column;
+}
+
+.slot2::before{
+    content: '/';
+}
+
+hr{
+    width: 85%
+}
+
+/***********Colores dinamicos para las card *********************/
+
+.grass{
+    background: linear-gradient(rgb(2, 129, 34), rgb(82, 248, 4))
+}
+.fire{
+    background: linear-gradient(rgb(241, 138, 3), rgb(241, 198, 4))
+}
+.water{
+    background: linear-gradient(rgb(15, 15, 141), rgb(10, 186, 240));
+}
+
+.normal{
+    background: linear-gradient(blue, pink);
+}
+.fighting{
+    background: linear-gradient(black, grey)
+}
+.flying{
+    background: linear-gradient(rgb(69, 69, 243), rgb(240, 193, 64))
+}
+.poison{
+    background: linear-gradient(purple, black)
+}
+.ground{
+    background: linear-gradient(brown, rgb(121, 73, 10))
+}
+.rock{
+    background: linear-gradient(grey, rgb(50, 43, 92))
+}
+.bug{
+    background: linear-gradient(rgb(52, 131, 6), rgb(4, 182, 19))
+}
+.ghost{
+    background: linear-gradient(rgb(15, 15, 15), rgb(240, 228, 250))
+}
+.steel{
+    background: linear-gradient(rgb(238, 6, 6)), rgb(87, 86, 85)
+}
+.electric{
+    background: linear-gradient(rgb(248, 232, 3), rgb(167, 150, 1))
+}
+.psychic{
+    background: linear-gradient(rgb(243, 129, 173), rgb(252, 250, 251))
+}
+.ice{
+    background: linear-gradient(rgb(252, 251, 251), rgb(11, 170, 243))
+}
+.dragon{
+    background: linear-gradient(rgb(54, 245, 36), rgb(184, 250, 211))
+}
+.dark{
+    background: linear-gradient(rgb(7, 7, 7), rgb(121, 20, 20))
+}
+.fairy{
+    background: linear-gradient(rgb(210, 2, 252), rgb(245, 163, 238))
+}

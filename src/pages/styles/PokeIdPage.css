@@ -1,0 +1,377 @@
+.id_contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.grass1 {
+    width: 80vw;
+    height: 20vh;
+    margin-left: 10vw;
+    background: linear-gradient(rgb(2, 129, 34), rgb(82, 248, 4));
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+}
+.fire1{
+    width: 80vw;
+    height: 20vh;
+    margin-left: 10vw;
+    background:linear-gradient(rgb(241, 138, 3), rgb(241, 198, 4));    
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+}
+.water1{
+    width: 80vw;
+    height: 20vh;
+    margin-left: 10vw;
+    background: linear-gradient(rgb(15, 15, 141), rgb(10, 186, 240));
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+}
+.normal1{
+    width: 80vw;
+    height: 20vh;
+    margin-left: 10vw;
+    background: linear-gradient(blue, pink);
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+}
+.fighting1{
+    width: 80vw;
+    height: 20vh;
+    margin-left: 10vw;
+    background: linear-gradient(black, grey);
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+}
+.flying1{
+    width: 80vw;
+    height: 20vh;
+    margin-left: 10vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+    background: linear-gradient(rgb(69, 69, 243), rgb(240, 193, 64));
+}
+.poison1{
+    width: 80vw;
+    height: 20vh;
+    margin-left: 10vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+    background: linear-gradient(purple, black)
+}
+.ground1{
+    width: 80vw;
+    height: 20vh;
+    margin-left: 10vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+    background: linear-gradient(brown, rgb(121, 73, 10))
+}
+.rock1{
+    width: 80vw;
+    height: 20vh;
+    margin-left: 10vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+    background: linear-gradient(grey, rgb(50, 43, 92))
+}
+.bug1{
+    width: 80vw;
+    height: 20vh;
+    margin-left: 10vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+    background: linear-gradient(rgb(52, 131, 6), rgb(4, 182, 19))
+}
+.ghost1{
+    width: 80vw;
+    height: 20vh;
+    margin-left: 10vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+    background: linear-gradient(rgb(15, 15, 15), rgb(240, 228, 250))
+}
+.steel1{
+    width: 80vw;
+    height: 20vh;
+    margin-left: 10vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+    background: linear-gradient(rgb(238, 6, 6)), rgb(87, 86, 85)
+}
+.electric1{
+    width: 80vw;
+    height: 20vh;
+    margin-left: 10vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+    background: linear-gradient(rgb(248, 232, 3), rgb(167, 150, 1))
+}
+.psychic1{
+    width: 80vw;
+    height: 20vh;
+    margin-left: 10vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+    background: linear-gradient(rgb(243, 129, 173), rgb(252, 250, 251))
+}
+.ice1{
+    width: 80vw;
+    height: 20vh;
+    margin-left: 10vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+    background: linear-gradient(rgb(252, 251, 251), rgb(11, 170, 243))
+}
+.dragon1{
+    width: 80vw;
+    height: 20vh;
+    margin-left: 10vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+    background: linear-gradient(rgb(54, 245, 36), rgb(184, 250, 211))
+}
+.dark1{
+    width: 80vw;
+    height: 20vh;
+    margin-left: 10vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+    background: linear-gradient(rgb(7, 7, 7), rgb(121, 20, 20))
+}
+.fairy1{
+    width: 80vw;
+    height: 20vh;
+    margin-left: 10vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+    background: linear-gradient(rgb(210, 2, 252), rgb(245, 163, 238))
+}
+.id_img{
+    
+    min-height: 200px;
+    margin-top: -20vh;
+    
+
+}
+.id_name{
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10vw;
+    
+}
+
+.divider{
+    width: 35vw;
+    height: 1px;
+    border: solid 1px black;
+}
+
+
+/***********mnesure***********/
+.messure{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+/*********TIPO Y HABILIDADES**************/
+.t_h{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/***********TIPO*******************/
+
+.types{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 30vh;
+}
+.id_grass1{
+    border: solid 1px black;    
+    padding: 3px;
+    border-radius: 5px;
+    background: linear-gradient(rgb(2, 129, 34), rgb(82, 248, 4));
+}
+
+.id_fire1{
+    border: solid 1px black;    
+    padding: 3px;
+    border-radius: 5px;
+    background:linear-gradient(rgb(241, 138, 3), rgb(241, 198, 4));    
+   
+}
+.id_water1{
+    border: solid 1px black;    
+    padding: 3px;
+    border-radius: 5px;
+    background: linear-gradient(rgb(15, 15, 141), rgb(10, 186, 240));
+}
+.id_normal1{
+    border: solid 1px black;    
+    padding: 3px;
+    border-radius: 5px;
+    background: linear-gradient(blue, pink);
+}
+   
+.id_fighting1{
+    border: solid 1px black;    
+    padding: 3px;
+    border-radius: 5px;
+    background: linear-gradient(black, grey);
+    color: silver;
+}
+   
+.id_flying1{
+    border: solid 1px black;    
+    padding: 3px;
+    border-radius: 5px;
+    background: linear-gradient(rgb(69, 69, 243), rgb(240, 193, 64));
+}
+.id_poison1{
+    border: solid 1px black;    
+    padding: 3px;
+    border-radius: 5px;
+    background: linear-gradient(purple, black);
+    color:white
+}
+.id_ground1{
+    border: solid 1px black;    
+    padding: 3px;
+    border-radius: 5px;
+    background: linear-gradient(brown, rgb(121, 73, 10))
+}
+.id_rock1{
+    border: solid 1px black;    
+    padding: 3px;
+    border-radius: 5px;
+    background: linear-gradient(grey, rgb(50, 43, 92))
+}
+.id_bug1{
+    border: solid 1px black;    
+    padding: 3px;
+    border-radius: 5px;
+    background: linear-gradient(rgb(52, 131, 6), rgb(4, 182, 19))
+}
+.id_ghost1{
+    border: solid 1px black;    
+    padding: 3px;
+    border-radius: 5px;
+    background: linear-gradient(rgb(15, 15, 15), rgb(240, 228, 250))
+}
+.id_steel1{
+    border: solid 1px black;    
+    padding: 3px;
+    border-radius: 5px;
+    background: linear-gradient(rgb(238, 6, 6)), rgb(87, 86, 85)
+}
+.id_electric1{
+    border: solid 1px black;    
+    padding: 3px;
+    border-radius: 5px;
+    background: linear-gradient(rgb(248, 232, 3), rgb(167, 150, 1))
+}
+.id_psychic1{
+    border: solid 1px black;    
+    padding: 3px;
+    border-radius: 5px;
+    background: linear-gradient(rgb(243, 129, 173), rgb(252, 250, 251))
+}
+.id_ice1{
+    border: solid 1px black;    
+    padding: 3px;
+    border-radius: 5px;
+    background: linear-gradient(rgb(252, 251, 251), rgb(11, 170, 243))
+}
+.id_dragon1{
+    border: solid 1px black;    
+    padding: 3px;
+    border-radius: 5px;
+    background: linear-gradient(rgb(54, 245, 36), rgb(184, 250, 211))
+}
+.id_dark1{
+    border: solid 1px black;    
+    padding: 3px;
+    border-radius: 5px;
+    background: linear-gradient(rgb(7, 7, 7), rgb(121, 20, 20));
+    color:red
+}
+.id_fairy1{
+    border: solid 1px black;    
+    padding: 3px;
+    border-radius: 5px;
+    background: linear-gradient(rgb(210, 2, 252), rgb(245, 163, 238))
+}
+
+/***************HABILIDAD**********/
+
+.hability{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5px;
+    width: 40vw;
+    flex-wrap: wrap;
+
+}
+
+.haility_index{
+    border: solid 1px purple;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+/*****************stats******************/
+.all_stats{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cont_stat{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.stats{
+    border: solid 1px black;
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    margin-left: 10vw;
+    margin-top: 5px;
+}
+.stat{
+    border: solid 1px red;
+    background:linear-gradient(rgb(241, 138, 3), rgb(241, 198, 4));
+}

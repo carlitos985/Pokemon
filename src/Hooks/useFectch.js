@@ -15,7 +15,7 @@ const useFectch = () => {
         axios.get(url)
             .then(res=>{
                 setApidata({
-                    resutls: res.data.pokemon.map(poke=>poke.pokemon),
+                    results: res.data.pokemon.map(poke=>poke.pokemon),
                 })
             })
             .catch(err=>console.log(err));
