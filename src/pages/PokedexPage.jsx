@@ -79,7 +79,7 @@ const [selectValue, setSelectValue] = useState('allPokemons');
       <div className='img_container'>
 
         <figure className='poke_image'>
-        <img src="src\Images\PokeDex2.png" alt="pokedesx" />
+        <img src="./PokeDex2.PNG" alt="pokedesx" />
 
         </figure>
       </div>

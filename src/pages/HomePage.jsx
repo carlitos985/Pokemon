@@ -25,7 +25,7 @@ export const HomePage = () => {
   return (
     <div className='home_container'>
         <figure className='home_image'>
-            <img src="src\Images\PokeDex.jpg" alt="" />
+            <img src="./PokeDex.jpg" alt="" />
         </figure>
         <br />
         <h1>¡¡¡ Hola Entrenador !!!</h1>
